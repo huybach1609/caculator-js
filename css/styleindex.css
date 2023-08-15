@@ -1,0 +1,84 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #dad7cd;
+  overflow: hidden;
+}
+header{
+  width: 28vh ;
+  margin:  20px 0 0px 20px;
+}
+.headline{
+  padding: 0;
+  margin: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.calulator {
+ /* flex  */
+  display: flex; 
+  justify-content: center;
+  flex-wrap: wrap;
+  /* box */
+  box-shadow: 0px 0px 20px black;
+  border-radius: 20px;
+  width: 450px;
+  height: 550px;
+  padding: 30px 0 20px 0;
+}
+.display{
+  width: 90%;
+  height: 90px;
+  background-color: #344E41 ;
+  border-radius: 10px;
+  text-align: right;
+  padding: 25px 0 0 0 ;
+}
+.subdis{
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+#subDisplay{
+  text-align: left;
+  padding: 0 0 0 20px;
+}
+#mainDisplay{
+  padding: 0 20px 0 0;
+  font-size: 25px;
+}
+.AButton{
+  display: flex; 
+  flex-wrap: wrap  ;
+  justify-content: center;
+  align-content: center;
+  gap: 1%;
+}
+.AButton button{
+  /* box */
+  border: 0px;
+  border-radius: 10px;
+  width:90px;  
+  height: 80px;
+  /* font */
+  font-size: 20px;
+  background-color:#A3B18A;
+  color: #DAD7CD;
+}
+.AButton button:active{
+  background-color: black; 
+  color: white;
+}
+#zero{
+  width: 185px;
+}
+  
+
+
+
